@@ -1,0 +1,22 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "This is a lottery app",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Pratap Tyagi",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.0.2",
+    "solc": "^0.4.26",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.4.0"
+  }
+}
